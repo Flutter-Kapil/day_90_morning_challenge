@@ -7,5 +7,9 @@
 // triangle(215) ➞ 23220
 
 void main() {
+  print(triangle(215));
+}
 
+int triangle(int n){
+  return ((n*(n+1))~/2);
 }
